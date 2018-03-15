@@ -1,8 +1,10 @@
 package coleccion;
 
+import java.util.List;
+
 public class Playlist extends Coleccion {
 
-    private Coleccion[] coleccion;
+    private List<Coleccion> coleccion;
 
     public Playlist(String nombre) {
         super(nombre);
